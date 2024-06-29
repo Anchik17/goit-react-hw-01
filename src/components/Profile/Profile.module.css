@@ -1,0 +1,45 @@
+.mainBox {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.avatarInfo {
+  margin-bottom: 20px;
+}
+
+.imgProfile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+.nameAvatar {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.avatarDescr {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.statsListItem {
+  width: 33%;
+  text-align: center;
+}
+
+.statsListItemCount {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+}
