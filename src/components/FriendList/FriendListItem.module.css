@@ -1,0 +1,13 @@
+.friendDescr {
+  margin-top: 20px;
+}
+
+.online {
+  color: green;
+  font-size: 35px;
+}
+
+.offline {
+  color: red;
+  font-size: 35px;
+}
