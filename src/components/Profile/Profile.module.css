@@ -1,45 +1,67 @@
 .mainBox {
-  width: 300px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: #fff;
+  border: 4px solid black;
+  border-radius: 16px;
+  margin: 80px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-.avatarInfo {
-  margin-bottom: 20px;
+.avatarInfoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .imgProfile {
-  width: 100px;
-  height: 100px;
   border-radius: 50%;
-  background-color: #f0f0f0;
-  margin-bottom: 10px;
+  background-color: grey;
+  width: 350px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 .nameAvatar {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 10px 0 5px;
+  font-weight: 700;
+  font-size: 70px;
+  margin: 5px 0 10px;
 }
 
 .avatarDescr {
-  font-size: 16px;
-  color: #888;
-  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 60px;
+  color: grey;
+  margin: 5px 0 5px;
+}
+
+.statsList {
+  background-color: lightgray;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top: 4px solid grey;
+  margin: 0 auto;
 }
 
 .statsListItem {
-  width: 33%;
-  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
+  font-size: 45px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: calc((100% - 40px) / 3);
+  border-right: 4px solid grey;
+}
+
+.statsListItem:last-child {
+  border-right: none;
 }
 
 .statsListItemCount {
-  display: flex;
-  font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
 }

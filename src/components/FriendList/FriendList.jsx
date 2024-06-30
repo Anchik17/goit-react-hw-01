@@ -1,5 +1,4 @@
 import clsx from "clsx";
-import PropTypes from "prop-types";
 import s from "./FriendList.module.css";
 import FriendListItem from "./FriendListItem";
 
@@ -19,13 +18,6 @@ export const FriendList = ({ friends }) => {
       })}
     </ul>
   );
-};
-
-FriendList.propTypes = {
-  avatar: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  isOnline: PropTypes.bool.isRequired,
-  id: PropTypes.number.isRequired,
 };
 
 export default FriendList;

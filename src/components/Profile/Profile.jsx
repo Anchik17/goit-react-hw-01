@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import clsx from "clsx";
 import s from "./Profile.module.css";
 
@@ -27,14 +26,6 @@ export const Profile = ({ name, tag, location, image, stats }) => {
       </ul>
     </div>
   );
-};
-
-Profile.PropTypes = {
-  name: PropTypes.string.isRequired,
-  tag: PropTypes.string.isRequired,
-  location: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  stats: PropTypes.string.isRequired,
 };
 
 export default Profile;
